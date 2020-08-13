@@ -7,20 +7,3 @@ input:required:valid {
   background-color: white;
   color: black;
 }
-
-.wtf {
-  color: red;
-  font-weight: bold;
-}
-
-.yes {
-  color: red;
-}
-
-.borderline {
-  color: orange;
-}
-
-.nope {
-  color: green;
-}
