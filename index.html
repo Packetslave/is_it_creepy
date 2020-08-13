@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Is It Creepy?</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Is it creepy?</h1>
+    <form>
+      <p>
+        <label for="you">Your age?</label>
+        <input
+          id="you"
+          type="number"
+          required="true"
+          min="1"
+          max="200"
+          size="2"
+        />
+      </p>
+      <p>
+        <label for="them"> Their age?</label>
+        <input
+          id="them"
+          type="number"
+          required="true"
+          min="1"
+          max="200"
+          size="2"
+        />
+      </p>
+      <button>Submit</button>
+      <p id="answer"></p>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/umbrellajs"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
